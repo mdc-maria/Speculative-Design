@@ -1,0 +1,96 @@
+
+@font-face {
+    font-family: 'GTP';
+    src: url('GT-Pressura-Mono-Light-Trial.woff2') format('woff2'),
+    url('GT-Pressura-Mono-Light-Trial.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NeueHaas';
+    src: url('NeueHaasDisplay-Roman.woff2') format('woff2'),
+    url('NeueHaasDisplay-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NeueHaasItalic';
+    src: url('NeueHaasDisplay-RomanItalic.woff') format('woff2'),
+    url('NeueHaasDisplay-RomanItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    cursor: wait;
+    position: relative;
+   
+    
+    }
+
+
+ #notes{
+    
+    height: auto;
+    background-color: white;
+    text-align:left;
+     width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+   
+    
+    
+    }
+    
+#one {
+    color: #000000;
+    font-family: 'NeueHaas';
+    font-size: 30pt;
+    
+   
+    }
+
+.highlights{
+    color: blue;
+    
+    font-family: 'NeueHaasItalic';
+    }
+
+.two {
+    font-size: 10pt;
+    font-family: 'GTP';
+    }
+
+ 
+ footer{
+    
+    height: auto;
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    bottom: 0;
+    flex-direction: column;
+    text-align:left;
+  overflow: scroll;
+    
+    margin-top: 12%;
+    
+   
+ }
+ 
+    #three{
+        font-size: 9pt;
+        font-family: 'GTP';
+        line-height: 8pt;
+  }
+
+
+
